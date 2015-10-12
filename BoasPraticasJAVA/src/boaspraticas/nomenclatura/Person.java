@@ -2,36 +2,21 @@
 package boaspraticas.nomenclatura;
 
 public class Person {
-    public String Name;
-    public boolean Died;
-    
-    /**
-    * 
-    * Nome de "Método" somente com caracteres ANSI e com prefixo adequado à 
-    * sua função.
-    *
-    */
+    public String name;
+    public boolean died;
+    //Nome de "Método" somente com caracteres ANSI e com prefixo adequado à 
+    //sua função.
     public String getName(){
-        return Name; 
+        return name; 
     }
-    
-    /**
-    * 
-    * Nome de "Método" somente com caracteres ANSI e com prefixo adequado à 
-    * sua função.
-    *
-    */
-    public void setName(String Name){
-        this.Name = Name;
+    // Nome de "Método" somente com caracteres ANSI e com prefixo adequado à 
+    //sua função.
+    public void setName(String name){
+        this.name = name;
     }
-    
-    /**
-    * 
-    * Nome de "Método" somente com caracteres ANSI e com nome 
-    * significativo e autoexplicativo.
-    *
-    */
-    public boolean verificaNomeExistente(String Name){
+    //Nome de "Método" somente com caracteres ANSI e com nome 
+    //significativo e autoexplicativo.
+    public boolean verificaNomeExistente(String name){
         return true;
     }
 }
